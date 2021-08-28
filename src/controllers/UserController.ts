@@ -11,9 +11,4 @@ export class UserController {
     async getUser(): Promise<any> {
         return await this._userService.getUser();
     }
-
-    @Post()
-    async postUser(body: object): Promise<any> {
-        return {}
-    }
 }
